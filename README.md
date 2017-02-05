@@ -49,3 +49,7 @@ SSH-2.0-OpenSSH_6.7p1 Debian-5+deb8u3
 ```sh
 mysql -h104.155.198.17 -upydemia -p -t < employees.sql
 ```
+
+```sh
+gcloud beta sql connect pydemiamysql --user=pydemia
+```
