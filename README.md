@@ -47,5 +47,5 @@ SSH-2.0-OpenSSH_6.7p1 Debian-5+deb8u3
 ## Import 
 
 ```sh
-sudo gcloud sql instances describe pydemiamysql
+mysql -h104.155.198.17 -upydemia -p -t < employees.sql
 ```
