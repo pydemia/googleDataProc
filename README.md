@@ -43,3 +43,9 @@ SSH-2.0-OpenSSH_6.7p1 Debian-5+deb8u3
 
 
 ```
+
+## Import 
+
+```sh
+sudo gcloud sql instances describe pydemiamysql
+```
