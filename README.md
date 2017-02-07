@@ -26,6 +26,24 @@ source ~/.bashrc
 sudo gcloud compute ssh pydemia@hdcluster-m-0	--zone 
 ```
 
+```sh
+sudo gcloud compute instances create temp-machine --scopes compute-rw
+sudo gcloud compute ssh temp-machine
+```
+
+On Instance:
+```sh
+sudo useradd -m tempuser
+sudo su - tempuser
+sudo gcloud compute ssh example-instance
+```
+
+
+```sh
+sudo gcloud compute ssh temp-machine
+
+```
+
 ## Connection
 
 ```sh
