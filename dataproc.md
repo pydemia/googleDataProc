@@ -305,7 +305,7 @@ For example:
 
 ```sh
 /usr/bin/google-chrome-stable %U \
-    "http://35.187.202.161:8123" \
+    "http://104.198.86.252:8123" \
     --proxy-server="socks5://localhost:10000" \
     --host-resolver-rules="MAP * 0.0.0.0 , EXCLUDE localhost" \
     --user-data-dir=/tmp/
