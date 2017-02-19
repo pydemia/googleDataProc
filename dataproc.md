@@ -225,7 +225,6 @@ fi
 
 #### Create a cluster using the bucket.
 
-
 ```sh
 gs://dataproc-initialization-actions/jupyter/jupyter.sh
 gs://dataproc-initialization-actions/zeppelin/zeppelin.sh
@@ -236,7 +235,21 @@ gs://dataproc-initialization-actions/oozie/oozie.sh
 gs://dataproc-initialization-actions/kafka/kafka.sh
 gs://dataproc-initialization-actions/flink/flink.sh
 gs://dataproc-initialization-actions/presto/presto.sh
+```
 
+```sh
+gs://hdc_init/init/jupyter/jupyter.sh
+gs://hdc_init/init/zeppelin/zeppelin.sh
+
+gs://hdc_init/init/zookeeper/zookeeper.sh
+gs://hdc_init/init/oozie/oozie.sh
+gs://hdc_init/init/kafka/kafka.sh
+gs://hdc_init/init/flink/flink.sh
+gs://hdc_init/init/presto/presto.sh
+gs://hdc_init/init/hue/hue.sh
+
+
+gs://hdc_init/init/tez/tez.sh
 ```
 
 #### Set SSH Key
